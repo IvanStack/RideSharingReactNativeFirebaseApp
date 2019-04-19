@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "38995523207",
+    "firebase_url": "https://alpharides-f115c.firebaseio.com",
+    "project_id": "alpharides-f115c",
+    "storage_bucket": "alpharides-f115c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:38995523207:android:6cd35d7d220f1c21",
+        "android_client_info": {
+          "package_name": "com.alpharides"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "38995523207-7fmsr3edf2681106qreud54c21dsh914.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6jAHopV3-ozgkdsNPG5gRO0FQmt58CTY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
