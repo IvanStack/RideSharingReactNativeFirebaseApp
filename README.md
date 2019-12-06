@@ -1,1 +1,1 @@
-This is a basic Ride Sharing App
+This is a basic Ride Sharing App with React Native
