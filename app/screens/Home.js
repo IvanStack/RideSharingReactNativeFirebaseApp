@@ -17,8 +17,6 @@ import { StackActions, NavigationActions } from "react-navigation";
 import geofire from 'geofire';
 import {GeoFirestore} from 'geofirestore';
 
-
-
 class Home extends Component {
   static navigationOptions = { header: null }
   constructor(props) {
