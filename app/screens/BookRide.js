@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 
 import {
-
     StyleSheet,
     AsyncStorage,
     Text,
@@ -44,7 +43,6 @@ export default class BookRide extends Component {
             BookedRide: false,
             NewDestination: null,
             done: false
-
         }
 
         navigator.geolocation.getCurrentPosition(
@@ -54,7 +52,6 @@ export default class BookRide extends Component {
                     error: null,
                     gettingMyLocation: false
                 });
-
             },
             (error) => this.setState({ error: error.message }),
             { enableHighAccuracy: true, timeout: 20000 },
@@ -64,7 +61,6 @@ export default class BookRide extends Component {
             .then((result) => {
                 this.setState({
                     NewDestination: { latitude: result.latitude, longitude: result.longitude },
-
                 })
             })
             .then(() => {
@@ -107,14 +103,9 @@ export default class BookRide extends Component {
                             carPrice: CarPrice,
                             autoPrice: AutoPrice
                         })
-
-
                     })
                     .catch(error => console.log(error))
             })
-
-
-
     }
 
     mergeLot = (origin, destination) => {
@@ -192,10 +183,6 @@ export default class BookRide extends Component {
                     accepted_by: null
 
                 })
-
-
-
-
             })
 
             .then(() => {
@@ -224,11 +211,7 @@ export default class BookRide extends Component {
             })
         */}
 
-
     }
-
-
-
 
     componentDidMount() {
         AsyncStorage.getItem('Name')
