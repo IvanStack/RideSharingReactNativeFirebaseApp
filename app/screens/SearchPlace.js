@@ -30,9 +30,6 @@ export default class SearchPlace extends Component {
     };
 
     onLocation(location) {
-        //We will have to send location to the map that needs to render
-        //the route directions. So we navigate to that map
-
         let placeID = location.placeID
 
         this.props.navigation.navigate("BookRide", { placeID });
